@@ -10,7 +10,7 @@ Below are the instructions to set up and run the project on your local machine.
 
 Before you begin, ensure you have the following installed on your system:
 
-- BugAlerts Backend (https://github.com/manoaj/BugAlerts_Backend/)
+- BugAlertsAPI (https://github.com/manoaj/BugAlertsAPI/)
 - Node.js with npm (https://nodejs.org/)
 - React: "^17.0.2"
 - Homebrew (for macOS users)
@@ -38,8 +38,8 @@ npm install --save --legacy-peer-deps
 
 ## Usage
 
-1. Install and run the BugAlerts_Backend by following the instructions at https://github.com/manoaj/BugAlerts_Backend/.
-2. Make sure the BugAlerts_Backend is running.
+1. Install and run the BugAlertsAPI by following the instructions at https://github.com/manoaj/BugAlertsAPI/.
+2. Make sure the BugAlertsAPI is running.
 3. Navigate to the BugAlerts_Frontend directory.
 4. Run the frontend application using:
 
@@ -59,7 +59,7 @@ npm start &
 
 If you encounter any issues during the installation or setup process, please check the following:
 
-- Ensure the BugAlerts_Backend is running.
+- Ensure the BugAlertsAPI is running.
 - Confirm that Node.js and npm are installed correctly.
 - Double-check that the required packages are installed using `npm install`.
 
