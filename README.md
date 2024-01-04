@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a part of BugAlerts UI project. This Frontend system is developed using ReactJS, and it serves as the frontend user interface. To enable seamless interaction between these components, several Application Programming Interfaces (APIs) have been implemented in the backend, and it is integrated into the frontend. 
+This project is a part of the BugAlerts UI project. This frontend system is developed using ReactJS and serves as the frontend user interface. To enable seamless interaction between these components, several application programming interfaces (APIs) have been implemented in the backend and integrated into the frontend. 
 
 Below are the instructions to set up and run the project on your local machine.
 
@@ -23,11 +23,11 @@ Before you begin, ensure you have the following installed on your system:
 npm install --global react@"^17.0.2"
 ```
 
-### Clone BugAlerts Frontend
+### Clone BugAlertsUI
 
 ```
-git clone https://github.com/your-username/BugAlerts_Frontend.git
-cd BugAlerts_Frontend
+git clone https://github.com/manoaj/BugAlertsUI.git
+cd BugAlertsUI
 ```
 
 ### Install Packages
