@@ -1,4 +1,4 @@
-# BugAlerts UI
+# BugAlertsUI
 
 ## Overview
 
