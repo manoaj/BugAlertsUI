@@ -1,0 +1,35 @@
+<Container>
+            <h2>Tags</h2>
+            <SearchInput
+                type="text"
+                placeholder="Search Tag"
+                value={searchValue}
+                onChange={handleTagSearch}
+            />
+            {tags && tags.length > 0 && (
+                <DataTable
+                    columns={columns}
+                    data={tags}
+                    striped
+                    highlightOnHover
+                    customStyles={customStyles}
+                />
+            )}
+        </Container>
+
+
+                overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+
+
+        filteredTags = tags.filter(
+        tag =>
+            tag.Tag.toString().toLowerCase().includes(filterTag)
+    );
+
+    filteredTags = tags.filter(
+        tag =>
+            tag.Tag.toString().toLowerCase().includes(filterTagImp)
+    );
