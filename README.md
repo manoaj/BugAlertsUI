@@ -27,7 +27,6 @@ npm install --global react@"^17.0.2"
 
 ```
 git clone https://github.com/manoaj/BugAlertsUI.git
-cd BugAlertsUI
 ```
 
 ### Install Packages
@@ -40,7 +39,10 @@ npm install --save --legacy-peer-deps
 
 1. Install and run the BugAlertsAPI by following the instructions at https://github.com/manoaj/BugAlertsAPI/.
 2. Make sure the BugAlertsAPI is running.
-3. Navigate to the BugAlerts_Frontend directory.
+3. Navigate to the BugAlertsUI directory.
+```
+cd BugAlertsUI
+```
 4. Run the frontend application using:
 
 ```
